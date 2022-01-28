@@ -51,7 +51,8 @@ print("----------------tupla---------------")
 
 tupla= ('hola', 'todos', "revisando")
 listaDeTupla=list(tupla)
-listaDeTupla.append("vivi")# agreg un elemento a la tupla
+listaDeTupla.append("vivi")
+# se convierte en lista para agreg un elemento
 print(listaDeTupla)
 
 print("------------index------------------")
@@ -78,9 +79,20 @@ d=a,b,c
 print (len(d))
 print (d)
 
+print("-----------Rangos-------")
+
+rango = range(4)
+print(rango)
+
 print("------------Diccionarios-------")
 
-
+diccionario = {
+    "id":1,
+    "nombre": "vivi",
+    "apellidos": "diaz",
+    "ciudad": "bucaramanga"
+}
+print(diccionario)
 
 
 
