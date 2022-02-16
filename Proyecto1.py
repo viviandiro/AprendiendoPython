@@ -68,10 +68,10 @@ if num2== "prueba":
     print("El valor ingresado no es un Entero")
     exit()
 
-suma = num1 + num2
-print (suma) 
+# suma = num1 + num2
+# print (suma) 
 
-print("------- otras operaciones------------")
+# print("------- otras operaciones------------")
 
 simbolo = input("ingrese un simbolo de operacion: ")
 
